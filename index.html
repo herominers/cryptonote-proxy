@@ -1,0 +1,319 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="content-type" content="text/html" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="author" content="herominers.com" />
+<link href="http://herominers.com/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<meta name="robots" content="noodp" />
+
+
+<title>HeroMiners Proxy Mining Control</title>
+
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.6.3/jquery.timeago.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+
+
+</head>
+<body>
+<div class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">HeroMiners Proxy Mining Control</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" id="rel"><span class="glyphicon glyphicon-refresh"></span> Reload Config</a></li>
+				<!--<li><a href="#" data-toggle="modal" data-target="#modalReload"><span class="glyphicon glyphicon-refresh"></span> Reload Config</a></li>-->
+            </ul>
+            <div class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" class="form-control grey" id="user" placeholder="Load User..." autocomplete="off"/>
+                        <span class="input-group-btn">
+                            <button class="btn btn-success" type="button" id="loaduser">Load</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div id="msg"></div>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="page-title">
+                <h3><span>Coin List</span></h3>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-hover" id="coins"></table>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="page-title">
+                <h3><span>Worker List</span></h3>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-hover" id="workers"></table>
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+<div id="modalReload" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Reload Config</h4>
+            </div>
+            <div class="modal-body">
+                <input type="password" id="password" class="form-control" placeholder="Reload password" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-warning" id="rel" data-dismiss="modal">Reload</button>
+                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+
+
+
+<footer class="py-5">
+ 
+		<table align="center">
+		<tr align="center">
+		<td align="center">
+
+
+			<br/>
+			<br/>
+			<br/>
+			<strong><a href="mailto:admin@herominers.com">Contact</a></strong>
+			
+			&nbsp;-&nbsp;
+			<strong><a href="https://discord.gg/gvWSs84">Discord</a></strong>
+			&nbsp;-&nbsp;
+			<strong><a href="https://t.me/Hero%20Miners">Telegram</a></strong>
+			<br/>
+			<strong>HeroMiners Pool</strong>
+			<br/>
+			<i class="fa fa-copyright" aria-hidden="true"></i> 2018
+			
+		</td>
+		</tr>
+		</table>
+
+      <!-- /.container -->
+</footer>
+	
+	
+	
+<script type="text/javascript">
+    function getReadableHashRateString(hashrate){
+        var i = 0;
+        var byteUnits = [' H', ' KH', ' MH', ' GH', ' TH', ' PH' ];
+        while (hashrate > 1000){
+            hashrate = hashrate / 1000;
+            i++;
+        }
+        return hashrate.toFixed(2) + byteUnits[i];
+    }
+    function getReadableDiffString(diff){
+        var i = 0;
+        var byteUnits = ['', ' K', ' M', ' G', ' T', ' P' ];
+        while (diff > 1000){
+            diff = diff / 1000;
+            i++;
+        }
+        return diff.toFixed(2) + byteUnits[i];
+    }
+    var docCookies = {
+        getItem: function (sKey) {
+            return decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*" + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*([^;]*).*$)|^.*$"), "$1")) || null;
+        },
+        setItem: function (sKey, sValue, vEnd, sPath, sDomain, bSecure) {
+            if (!sKey || /^(?:expires|max\-age|path|domain|secure)$/i.test(sKey)) { return false; }
+            var sExpires = "";
+            if (vEnd) {
+                switch (vEnd.constructor) {
+                    case Number:
+                        sExpires = vEnd === Infinity ? "; expires=Fri, 31 Dec 9999 23:59:59 GMT" : "; max-age=" + vEnd;
+                        break;
+                    case String:
+                        sExpires = "; expires=" + vEnd;
+                        break;
+                    case Date:
+                        sExpires = "; expires=" + vEnd.toUTCString();
+                        break;
+                }
+            }
+            document.cookie = encodeURIComponent(sKey) + "=" + encodeURIComponent(sValue) + sExpires + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "") + (bSecure ? "; secure" : "");
+            return true;
+        },
+        removeItem: function (sKey, sPath, sDomain) {
+            if (!sKey || !this.hasItem(sKey)) { return false; }
+            document.cookie = encodeURIComponent(sKey) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT" + ( sDomain ? "; domain=" + sDomain : "") + ( sPath ? "; path=" + sPath : "");
+            return true;
+        },
+        hasItem: function (sKey) {
+            return (new RegExp("(?:^|;\\s*)" + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=")).test(document.cookie);
+        }
+    };
+    
+    var socket;
+    var user;
+    $(function(){
+        socket = io();
+        socket.on('coins',function(coins){
+            $('#coins').empty();
+            $('#coins').append($(
+                '<tr>'+ 
+                '<th>Coin</th>'+ 
+                '<th>Difficulty</th>'+
+                '<th>Network Hashrate</th>'+
+				'<th>Pool Hashrate</th>'+
+                '<th>Pool Last Block</th>'+
+				'<th>Block Height</th>'+
+				'<th>Block Found</th>'+
+				'<th>Miners (Workers)</th>'+
+                '<th>Actions</th>'+
+                '</tr>'));
+            
+            for (var coin of coins){
+                $('#coins').append($(
+                    '<tr class="coin" id="coin_'+(coin.symbol)+'" data-api="'+coin.api+'">'+ 
+                    '<td>'+(coin.symbol)+'</td>'+ 
+                    '<td class="diff"></td>'+
+                    '<td class="nethash"></td>'+
+					'<td class="poolhash"></td>'+
+                    '<td class="poolblock"></td>'+
+					'<td class="blockheight"></td>'+
+					'<td class="blockfound"></td>'+
+					'<td><span class="miners"></span> (<span class="workers"></span>)</td>'+
+                    '<td><button id="switch_'+(coin.symbol)+'" class="btn btn-warning btn-xs" title="Active This Coin"><span class="glyphicon glyphicon-ok"></span>&nbsp;Select</button>&nbsp;'+
+                    '<a target="_blank" class="btn btn-success btn-xs" title="View Stats" href="'+coin.url+'/?wallet='+coin.login+'"><span class="glyphicon glyphicon-search"></span>&nbsp;Wallet</a></td>'+
+                    '</tr>'));
+                if(coin.active)
+                $('#coin_'+coin.symbol).addClass('selected');
+                $('#switch_'+coin.symbol).click(function(){
+                    user =  $('#user').val();
+                    socket.emit('switch',user,this.id.substr(7));
+                });
+            }
+        });
+        
+        socket.on('active',function(coin){
+            $('tr[id^="coin_"]').removeClass('selected');
+            $('#coin_'+coin).addClass('selected');
+        });
+        
+        socket.on('workers',function(list,servertime){
+            $('#workers').empty();
+            $('#workers').append($(
+                '<tr>'+
+                '<th>#</th>'+
+                '<th>Worker</th>'+ 
+                '<th>Last Submit</th>'+
+                '<th>Hashrate</th>'+
+                '</tr>'));
+            
+            var combined=0;
+            var keys = Object.keys(list);
+            var n = 1;
+            for(var worker of keys){
+                $('#workers').append($(
+                    '<tr>'+ 
+                    '<td>'+n+'</td>'+ 
+                    '<td>'+worker+'</td>'+
+                    '<td>'+jQuery.timeago(new Date(list[worker].time * 1000))+'</td>'+
+                    '<td>'+getReadableHashRateString(list[worker].hashrate*1000)+'/s'+'</td>'+
+                    '</tr>'));
+                n++;
+                combined += list[worker].hashrate;
+            }
+            
+            $('#workers').append($(
+                '<tr class="worker">'+
+                '<td colspan="3">Combined Hasrate</td>'+
+                '<td>'+getReadableHashRateString(combined*1000)+'/s'+'</td>'+
+                '</tr>'));
+        });
+        
+        socket.on('msg', function(msg){
+            $('#msg').prepend($(
+                '<div class="alert alert-'+msg['type']+' alert-dismissible" role="alert">'+
+                '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;'+
+                '</span></button>'+msg['text']+
+                '</div>'));
+        });
+        
+        $('#rel').click(function(){
+            user =  $('#user').val()||'';
+            password = $('#password').val()||'';
+            $('#coins').empty();
+            socket.emit('reload',user, password);
+        });
+        
+        if(docCookies.getItem('login'))
+        {
+            $('#user').val(docCookies.getItem('login'));
+            $('#coins').empty();
+            socket.emit('user',docCookies.getItem('login'));
+        }
+        
+        $('#loaduser').click(function(){
+            user =  $('#user').val();
+            docCookies.setItem('login',user);
+            $('#coins').empty();
+            socket.emit('user',user);
+        });
+        
+        var xhrPoolApi;
+        
+        setInterval(() => {
+            $(".coin").each(function() {
+                if($(this).data('api'))
+                {
+                    var row = $(this);
+                    
+                    xhrPoolApi = $.ajax({
+                        url: row.data('api') + '/stats',
+                        dataType: 'json',
+                        cache: 'false'
+                    }).done(function(data){
+                        row.find(".diff").text(getReadableDiffString(data.network.difficulty));
+                        row.find(".nethash").text(getReadableHashRateString(data.network.difficulty/data.config.coinDifficultyTarget)+'/s');
+						row.find(".poolhash").text(getReadableHashRateString(data.pool.hashrate)+'/s');
+                        row.find(".netblock").text(jQuery.timeago(new Date(data.lastblock.timestamp * 1000)));
+                        row.find(".poolblock").text(jQuery.timeago(new Date(parseInt(data.pool.lastBlockFound))));
+						row.find(".blockheight").text((parseInt(data.network.height)));
+						row.find(".blockfound").text((parseInt(data.pool.totalBlocks)));
+						row.find(".miners").text((parseInt(data.pool.miners)));
+						row.find(".workers").text((parseInt(data.pool.workers)));
+						
+                    });
+                }
+            });
+        }, 5000);
+    });
+</script>
+</body>
+</html>

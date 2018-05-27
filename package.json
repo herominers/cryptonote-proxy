@@ -1,0 +1,21 @@
+{
+  "name": "cryptonote-proxy",
+  "version": "4.0.0",
+  "license": "0BSD",
+  "authors": "HeroMiners",
+  "main": "proxy.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herominers/cryptonote-proxy.git"
+  },
+  "dependencies": {
+    "bignumber.js": "^5.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1",
+    "winston": "^2.4.2"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
