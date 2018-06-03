@@ -14,6 +14,14 @@
 				"api":"https://bloc.herominers.com/api"
 			},
 			{
+				"symbol":"BixBite",
+				"name":"bxd6q14rvtpbQNAhkoobogco4PWAMUipdeXN7QNw3RxxSCYZXetUb1XgR7XmJCf3i2bwMaU4wDGKVhXhsYvvuVbQ2PuyJPhy7",
+				"host":"bixbite.herominers.com",
+				"port":"10260",
+				"url":"https://bixbite.herominers.com",
+				"api":"https://bixbite.herominers.com/api"
+			},
+			{
 				"symbol":"Bitsum",
 				"name":"Sm4cDcRHTMmLRAxkh5dUhWV29Z7wsBeqPQMyCfsaW7DE4N85LF3d5EbVS1SyYzgxe63TTqXSyAD7k3Hv21pRhbhJ1wXehMApj",
 				"host":"bitsum.herominers.com",
