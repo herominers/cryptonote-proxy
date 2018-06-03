@@ -304,7 +304,7 @@
 						row.find(".poolhash").text(getReadableHashRateString(data.pool.hashrate)+'/s');
                         row.find(".netblock").text(jQuery.timeago(new Date(data.lastblock.timestamp * 1000)));
                         row.find(".poolblock").text(jQuery.timeago(new Date(parseInt(data.pool.lastBlockFound))));
-						row.find(".blockheight").text((parseInt(data.network.height)));
+						row.find(".blockheight").text((parseInt(data.pool.network.height)));
 						row.find(".blockfound").text((parseInt(data.pool.totalBlocks)));
 						row.find(".miners").text((parseInt(data.pool.miners)));
 						row.find(".workers").text((parseInt(data.pool.workers)));
