@@ -109,13 +109,21 @@
 				"url":"https://monero.herominers.com",
 				"api":"https://monero.herominers.com/api"
 			},
-						{
+			{
 				"symbol":"MoneroV",
 				"name":"43Ywh99qyjzCziG2xJ87FUf51FQh4zeQoisxPZsgsE1EKt6VZGcxEqWSaQjGShSiH741USrogA5Dn1S8DsKJY6kcGhBNJJZ",
 				"host":"monerov.herominers.com",
 				"port":"10200",
 				"url":"https://monerov.herominers.com",
 				"api":"https://monerov.herominers.com/api"
+			},
+			{
+				"symbol":"Ryo",
+				"name":"Sumoo4x8qeRFMqhtyFHW98ENzWH2Pvdfsceay9BckWBx88Di4YKbAMHRMXVeDN9Fo6gfaZymnpoFgBroMocnMkUFgEZ4FdkDK1C",
+				"host":"ryo.herominers.com",
+				"port":"10270",
+				"url":"https://ryo.herominers.com",
+				"api":"https://ryo.herominers.com/api"
 			},
 			{
 				"symbol":"Saronite",
@@ -133,7 +141,8 @@
 				"url":"https://stellite.herominers.com",
 				"api":"https://stellite.herominers.com/api"
 			}
-		],"userB":[
+			],
+		"userB":[
 			{
 				"symbol":"Graft",
 				"name":"GAhmkFwdUqLW6cKUwjH44scujPpb2kS4yWSrLhSYAj1zdLXkvsnUmrFTSFJ45sAi1AY1eN1rs4N6QQbGxxcAGjndMyrUMi4",
