@@ -5,6 +5,7 @@ cryptonote-proxy
 Support: https://discord.gg/gvWSs84
 
 Windows Installation Guide: https://graft.herominers.com/#windows
+
 Linux Installation Guide: https://graft.herominers.com/#linux
 
 
