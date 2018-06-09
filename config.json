@@ -1,10 +1,18 @@
 {
 	"workerport":2349,
 	"httpport":2350,
-	"default":"Bloc",
+	"default":"BitTube",
 	"pools":
 	{
 		"userA":[
+			{
+				"symbol":"BixBite",
+				"name":"bxd6q14rvtpbQNAhkoobogco4PWAMUipdeXN7QNw3RxxSCYZXetUb1XgR7XmJCf3i2bwMaU4wDGKVhXhsYvvuVbQ2PuyJPhy7",
+				"host":"bixbite.herominers.com",
+				"port":"10260",
+				"url":"https://bixbite.herominers.com",
+				"api":"https://bixbite.herominers.com/api"
+			},
 			{
 				"symbol":"Bloc",
 				"name":"abLoc8XdUpoiykYNyPtwmoJAAjW1zSECf4D52zMd4gzrcQNkDJtTjeX54Kc7MfEHDKZUdk1sQ4QWSHRtb8Cfau3WgHt63sgy1gH",
@@ -14,12 +22,12 @@
 				"api":"https://bloc.herominers.com/api"
 			},
 			{
-				"symbol":"BixBite",
-				"name":"bxd6q14rvtpbQNAhkoobogco4PWAMUipdeXN7QNw3RxxSCYZXetUb1XgR7XmJCf3i2bwMaU4wDGKVhXhsYvvuVbQ2PuyJPhy7",
-				"host":"bixbite.herominers.com",
-				"port":"10260",
-				"url":"https://bixbite.herominers.com",
-				"api":"https://bixbite.herominers.com/api"
+				"symbol":"BitTube",
+				"name":"bxdcdzc8EdbT2eGjp59JnjanBaPbJNpsVA5peicUYaTeiJN6Udayx6WTRsaXF9dLz7MR7GPgXs6mobnmHGfxA34b1Wr7365xK",
+				"host":"bittube.herominers.com",
+				"port":"10280",
+				"url":"https://bittube.herominers.com",
+				"api":"https://bittube.herominers.com/api"
 			},
 			{
 				"symbol":"Bitsum",
@@ -86,6 +94,14 @@
 				"api":"https://intucoin.herominers.com/api"
 			},
 			{
+				"symbol":"Karbo",
+				"name":"KcuYhse2g9RUJ7HBAVHXg2gidQiy1ZEA2MeghMuA5ASsAgWvoM19rWsZBny1YmuPTw38s194iaLVaG19QNLGu42Z6XdZFbi",
+				"host":"karbo.herominers.com",
+				"port":"10250",
+				"url":"https://karbo.herominers.com",
+				"api":"https://karbo.herominers.com/api"
+			},
+			{
 				"symbol":"Loki",
 				"name":"LAtfY5HQZhLirHfvwUAof5PxoSSuRxQds9AgyfXdruuBMVjX893xGEmQPzjbZAjUGp2wUDdhFM4dT82UJujBLnW2UxUvAax",
 				"host":"loki.herominers.com",
@@ -134,6 +150,14 @@
 				"api":"https://saronite.herominers.com/api"
 			},
 			{
+				"symbol":"Sumo",
+				"name":"Sumoo2gbXxEMDcmU6un7bxMcnMM7jo3a5UDfub6njNhaQsZfHKgsQPUFgc6b3WhsBuCZPz3dqzBU1QCo6fMApu5m8KU8Bxq1RyQ",
+				"host":"sumo.herominers.com",
+				"port":"10230",
+				"url":"https://sumo.herominers.com",
+				"api":"https://sumo.herominers.com/api"
+			},
+			{
 				"symbol":"Stellite",
 				"name":"Se3BmhnLSFtPe2cNH3y2nF7hbtVny9vgMGioWd9uA6fN3ubFsb7w3bZ9pY7dLtxEwkYmMywdRhNgA2UFgBmxAvu41SXGdNCNG",
 				"host":"stellite.herominers.com",
@@ -143,6 +167,14 @@
 			}
 			],
 		"userB":[
+			{
+				"symbol":"BitTube",
+				"name":"bxdcdzc8EdbT2eGjp59JnjanBaPbJNpsVA5peicUYaTeiJN6Udayx6WTRsaXF9dLz7MR7GPgXs6mobnmHGfxA34b1Wr7365xK",
+				"host":"bittube.herominers.com",
+				"port":"10280",
+				"url":"https://bittube.herominers.com",
+				"api":"https://bittube.herominers.com/api"
+			},
 			{
 				"symbol":"Graft",
 				"name":"GAhmkFwdUqLW6cKUwjH44scujPpb2kS4yWSrLhSYAj1zdLXkvsnUmrFTSFJ45sAi1AY1eN1rs4N6QQbGxxcAGjndMyrUMi4",
