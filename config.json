@@ -6,6 +6,14 @@
 	{
 		"userA":[
 			{
+				"symbol":"ArQmA",
+				"name":"ar3Gna8npTKKApgp3uzaSZ1evrVXeDfgA6aLgBn1nRVbJyiU7dwjPJtSohPHfSaBXb8QaqcVV2zsbdpkEpEpygaH1CMiQCMzw",
+				"host":"arqma.herominers.com",
+				"port":"10320",
+				"url":"https://arqma.herominers.com",
+				"api":"https://arqma.herominers.com/api"
+			},
+			{
 				"symbol":"BixBite",
 				"name":"bxd6q14rvtpbQNAhkoobogco4PWAMUipdeXN7QNw3RxxSCYZXetUb1XgR7XmJCf3i2bwMaU4wDGKVhXhsYvvuVbQ2PuyJPhy7",
 				"host":"bixbite.herominers.com",
@@ -132,6 +140,14 @@
 				"port":"10200",
 				"url":"https://monerov.herominers.com",
 				"api":"https://monerov.herominers.com/api"
+			},
+			{
+				"symbol":"Myztic",
+				"name":"imzt1vJu451eeyBk4oS9eK4uGYXPhS4V69mxMQsZZ3UzSNyVXz5HTNs3rCDJcHntfNfDjnrQJypA4BkskPM78piG4uXW9qupXgN3S",
+				"host":"myztic.herominers.com",
+				"port":"10310",
+				"url":"https://myztic.herominers.com",
+				"api":"https://myztic.herominers.com/api"
 			},
 			{
 				"symbol":"Ryo",
