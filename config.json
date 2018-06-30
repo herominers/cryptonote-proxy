@@ -46,6 +46,22 @@
 				"api":"https://bitsum.herominers.com/api"
 			},
 			{
+				"symbol":"Catalyst",
+				"name":"XA2nwdTxpVieptiUonSfJcin6YmQhaeK8ZjKGAUikhqhf7onnpnts8zKp33egkwDonf7zJtag91kGjTzki1CdXBC2LF8Gj6vP",
+				"host":"catalyst.herominers.com",
+				"port":"10350",
+				"url":"https://catalyst.herominers.com",
+				"api":"https://catalyst.herominers.com/api"
+			},
+			{
+				"symbol":"Conceal",
+				"name":"ccx7bTsN6cWBSPjdj6RisRcmPYNTKuVA1hno8N6aPFVs1ZMjb5GRVfy1VpS73eaTra6g6E4i2WjKKPy3yTQFAUWQ8Fr5tk5kJb",
+				"host":"conceal.herominers.com",
+				"port":"10360",
+				"url":"https://conceal.herominers.com",
+				"api":"https://conceal.herominers.com/api"
+			},
+			{
 				"symbol":"Dero",
 				"name":"dERoWgmR1wWSeXiTHXuwrDLxC594YDMriTgjEL5ZmA8WJsB3595cU8AYywJb1Z2s7c5GELPj3vhnpf3iAy3va9z92sVyVbRL2q",
 				"host":"dero.herominers.com",
@@ -148,6 +164,14 @@
 				"port":"10310",
 				"url":"https://myztic.herominers.com",
 				"api":"https://myztic.herominers.com/api"
+			},
+			{
+				"symbol":"PrivatePay",
+				"name":"PPa1JyM625tcRBAbqYo2F3MVDzigkjLSQ2m593h2h9Cn1v3vZwfvNEb846avEG3TGhAbKCZVX2EWRCobZdquYF6g2B9f4NhRiU",
+				"host":"privatepay.herominers.com",
+				"port":"10330",
+				"url":"https://privatepay.herominers.com",
+				"api":"https://privatepay.herominers.com/api"
 			},
 			{
 				"symbol":"Ryo",
