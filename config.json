@@ -32,18 +32,10 @@
 			{
 				"symbol":"BitTube",
 				"name":"bxdcdzc8EdbT2eGjp59JnjanBaPbJNpsVA5peicUYaTeiJN6Udayx6WTRsaXF9dLz7MR7GPgXs6mobnmHGfxA34b1Wr7365xK",
-				"host":"bittube.herominers.com",
+				"host":"tube.herominers.com",
 				"port":"10280",
 				"url":"https://bittube.herominers.com",
 				"api":"https://bittube.herominers.com/api"
-			},
-			{
-				"symbol":"Bitsum",
-				"name":"Sm4cDcRHTMmLRAxkh5dUhWV29Z7wsBeqPQMyCfsaW7DE4N85LF3d5EbVS1SyYzgxe63TTqXSyAD7k3Hv21pRhbhJ1wXehMApj",
-				"host":"bitsum.herominers.com",
-				"port":"10160",
-				"url":"https://bitsum.herominers.com",
-				"api":"https://bitsum.herominers.com/api"
 			},
 			{
 				"symbol":"Catalyst",
