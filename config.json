@@ -68,15 +68,7 @@
 				"port":"10210",
 				"url":"https://electroneum.herominers.com",
 				"api":"https://electroneum.herominers.com/api"
-			},			
-			{
-				"symbol":"Electronero",
-				"name":"etnk4ev5brk9yTvCfDav1uQrBovLSgrqeFrr8wqHRNz9cqUu7nWgwGjefDpsLmKs4jLKJ3Tn44exM2qENVpW7gLC9krLLMfB2j",
-				"host":"electronero.herominers.com",
-				"port":"10220",
-				"url":"https://electronero.herominers.com",
-				"api":"https://electronero.herominers.com/api"
-			},			
+			},					
 			{
 				"symbol":"Graft",
 				"name":"GAhmkFwdUqLW6cKUwjH44scujPpb2kS4yWSrLhSYAj1zdLXkvsnUmrFTSFJ45sAi1AY1eN1rs4N6QQbGxxcAGjndMyrUMi4",
