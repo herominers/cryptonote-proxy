@@ -1,7 +1,7 @@
 {
 	"workerport":2349,
 	"httpport":2350,
-	"default":"BitTube",
+	"default":"Monero",
 	"pools":
 	{
 		"userA":[
