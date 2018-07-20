@@ -166,6 +166,14 @@
 				"api":"https://qrl.herominers.com/api"
 			},
 			{
+				"symbol":"ReCoal",
+				"name":"co7aUTcqkP26K894ZSRXJ2QmrmpM6QJn4icnmZtHmihDDpY3CVykt8kANJGJsDD4JTgMvp5v2DVWwjZqU51uMC2v21s9FQeee",
+				"host":"recoal.herominers.com",
+				"port":"10340",
+				"url":"https://recoal.herominers.com",
+				"api":"https://recoal.herominers.com/api"
+			},
+			{
 				"symbol":"Ryo",
 				"name":"Sumoo4x8qeRFMqhtyFHW98ENzWH2Pvdfsceay9BckWBx88Di4YKbAMHRMXVeDN9Fo6gfaZymnpoFgBroMocnMkUFgEZ4FdkDK1C",
 				"host":"ryo.herominers.com",
