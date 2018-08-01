@@ -6,6 +6,14 @@
 	{
 		"userA":[
 			{
+				"symbol":"Aeon",
+				"name":"Wmu1ehKXjub5MwdYSwAGWBCsa6SxFMkYm3u3gzpXWbC74ZfSMTsC187hVf5CmXc7z59sDK54ad8ypTjbopai37Ee1ppv3qYwo",
+				"host":"aeon.herominers.com",
+				"port":"10410",
+				"url":"https://aeon.herominers.com",
+				"api":"https://aeon.herominers.com/api"
+			},
+			{
 				"symbol":"ArQmA",
 				"name":"ar3Gna8npTKKApgp3uzaSZ1evrVXeDfgA6aLgBn1nRVbJyiU7dwjPJtSohPHfSaBXb8QaqcVV2zsbdpkEpEpygaH1CMiQCMzw",
 				"host":"arqma.herominers.com",
@@ -44,6 +52,14 @@
 				"port":"10350",
 				"url":"https://catalyst.herominers.com",
 				"api":"https://catalyst.herominers.com/api"
+			},
+			{
+				"symbol":"Citadel",
+				"name":"cxqGZotNxWpNgLH1TCKd23CYhc7azUB9hX7uQLQAQbEELaEbbDRGxedAgfbrrdsGs6WtzBTnSvHaFcxbtb4RBB2B1yXs5aazj",
+				"host":"citadel.herominers.com",
+				"port":"10420",
+				"url":"https://citadel.herominers.com",
+				"api":"https://citadel.herominers.com/api"
 			},
 			{
 				"symbol":"Conceal",
@@ -100,6 +116,14 @@
 				"port":"10170",
 				"url":"https://intucoin.herominers.com",
 				"api":"https://intucoin.herominers.com/api"
+			},
+			{
+				"symbol":"IPBC",
+				"name":"bxd9g84qxs6d47rqZ6uMABHmgoq9fzg6W8ATA1d8bcRxPPCAomhotG44Sc2sbSr9tD636H3vgxqoCjgyf7rghSbu1Nqvbb4HP",
+				"host":"ipbc.herominers.com",
+				"port":"10390",
+				"url":"https://ipbc.herominers.com",
+				"api":"https://ipbc.herominers.com/api"
 			},
 			{
 				"symbol":"Karbo",
