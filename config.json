@@ -46,14 +46,6 @@
 				"api":"https://tube.herominers.com/api"
 			},
 			{
-				"symbol":"Catalyst",
-				"name":"XA2nwdTxpVieptiUonSfJcin6YmQhaeK8ZjKGAUikhqhf7onnpnts8zKp33egkwDonf7zJtag91kGjTzki1CdXBC2LF8Gj6vP",
-				"host":"catalyst.herominers.com",
-				"port":"10350",
-				"url":"https://catalyst.herominers.com",
-				"api":"https://catalyst.herominers.com/api"
-			},
-			{
 				"symbol":"Citadel",
 				"name":"cxqGZotNxWpNgLH1TCKd23CYhc7azUB9hX7uQLQAQbEELaEbbDRGxedAgfbrrdsGs6WtzBTnSvHaFcxbtb4RBB2B1yXs5aazj",
 				"host":"citadel.herominers.com",
@@ -108,14 +100,6 @@
 				"port":"10180",
 				"url":"https://intensecoin.herominers.com",
 				"api":"https://intensecoin.herominers.com/api"
-			},
-			{
-				"symbol":"IntuCoin",
-				"name":"intuvWg4CNg6dq8JHvmeP32nma5BkDRZz8giaC5h3mBqSwxwWmVMX5ziZKSf24aKEUQfFG1sMXdw13rWnnmKWR3LQtTm3oBKYU3",
-				"host":"intucoin.herominers.com",
-				"port":"10170",
-				"url":"https://intucoin.herominers.com",
-				"api":"https://intucoin.herominers.com/api"
 			},
 			{
 				"symbol":"IPBC",
