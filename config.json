@@ -102,14 +102,6 @@
 				"api":"https://intensecoin.herominers.com/api"
 			},
 			{
-				"symbol":"IPBC",
-				"name":"bxd9g84qxs6d47rqZ6uMABHmgoq9fzg6W8ATA1d8bcRxPPCAomhotG44Sc2sbSr9tD636H3vgxqoCjgyf7rghSbu1Nqvbb4HP",
-				"host":"ipbc.herominers.com",
-				"port":"10390",
-				"url":"https://ipbc.herominers.com",
-				"api":"https://ipbc.herominers.com/api"
-			},
-			{
 				"symbol":"Karbo",
 				"name":"KcuYhse2g9RUJ7HBAVHXg2gidQiy1ZEA2MeghMuA5ASsAgWvoM19rWsZBny1YmuPTw38s194iaLVaG19QNLGu42Z6XdZFbi",
 				"host":"karbo.herominers.com",
@@ -188,6 +180,14 @@
 				"port":"10270",
 				"url":"https://ryo.herominers.com",
 				"api":"https://ryo.herominers.com/api"
+			},
+			{
+				"symbol":"Safex",
+				"name":"Safex5zdEqgLfMiU39VRBJBurdwJZrwHaS1fcDBctqR38f1qnnGt8i8RWwAU5ET9JmbuUu76jApvbd7tCH9AyNy17SCHT1eJamg3f",
+				"host":"safex.herominers.com",
+				"port":"10431",
+				"url":"https://safex.herominers.com",
+				"api":"https://safex.herominers.com/api"
 			},
 			{
 				"symbol":"Saronite",
