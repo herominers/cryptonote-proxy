@@ -54,6 +54,14 @@
 				"api":"https://citadel.herominers.com/api"
 			},
 			{
+				"symbol":"CitiCash",
+				"name":"cczK6hUb3XHFfdNMJNSHfN545ugmqAXuFUFS3x8gziXf6ed6erscsR3Lj2qjej3XDr3n5gw9ESfw7Zx4yqNtdBJw9U9uw9wz5d",
+				"host":"citicash.herominers.com",
+				"port":"10450",
+				"url":"https://citicash.herominers.com",
+				"api":"https://citicash.herominers.com/api"
+			},
+			{
 				"symbol":"Conceal",
 				"name":"ccx7bTsN6cWBSPjdj6RisRcmPYNTKuVA1hno8N6aPFVs1ZMjb5GRVfy1VpS73eaTra6g6E4i2WjKKPy3yTQFAUWQ8Fr5tk5kJb",
 				"host":"conceal.herominers.com",
@@ -212,6 +220,14 @@
 				"port":"10130",
 				"url":"https://stellite.herominers.com",
 				"api":"https://stellite.herominers.com/api"
+			},
+			{
+				"symbol":"X-CASH",
+				"name":"XCA1r5yGE6QCvXo2o64eoPDS7cwoY9X8hcVCmioX6Ya7BKN8kAbqDv15BsAEPUjRXva5tV2VGt6A46uCwSEMSbT18Ae8dDQcN2",
+				"host":"xcash.herominers.com",
+				"port":"10440",
+				"url":"https://xcash.herominers.com",
+				"api":"https://xcash.herominers.com/api"
 			},
 			{
 				"symbol":"xDrop",
