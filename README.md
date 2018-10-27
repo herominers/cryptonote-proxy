@@ -15,21 +15,29 @@ A stratum-capable cryptonight mining software (eg. xmrstak, xmrig, cast-xmr etc.
 		
 This guide is written with Debian/Ubuntu Linux in mind. However, it can be used for any Linux distro, by substituting the package manager-specific commands with the ones used by your distro.
 
+
+
 <h2>1. Download and install the latest nodejs version from <a target="_blank" href="https://nodejs.org/en/" title="NodeJs" alt="NodeJs" rel="nofollow">https://nodejs.org/en/</a></h2>
 		
-  ![switch](https://images2.imgbox.com/70/56/iJhxsSJc_o.png)
+		
+![switch](https://images2.imgbox.com/70/56/iJhxsSJc_o.png)
+		
 		
 		
 <h2>2. Download and install Git for Windows - <a target="_blank" title="git-scm" alt="git-scm" rel="nofollow" href="https://git-scm.com/download/win">https://git-scm.com/download/win</a></h2>
 
+
 During package installation, deselect the both options as shown (we don’t need that)
+		
 		
 ![switch](https://images2.imgbox.com/4b/a5/hlbS8B18_o.png)
 		
 		
 Use Git from Windows Command Prompt
 	
+	
 ![switch](https://images2.imgbox.com/e8/9c/CgbXQPCf_o.png)
+
 
 Then everything else, is just next, next, next and install.
 		
@@ -85,6 +93,7 @@ To run the proxy, double click <b>run.sh</b>
 ![switch](https://images2.imgbox.com/d3/f8/3s3I7eCs_o.png)
 
 
+
 At this point of time, you can open the browser and the address would be <a target="_blank" href="http://localhost:2350" title="windows" alt="windows">http://localhost:2350</a>
 	
 If you are opening from another computer within the local network (eg. 192.168.1.x network),
@@ -118,6 +127,22 @@ Now you are able to enjoy the switching from coin to coin with just <b>1 single 
 
 That’s it!
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -171,12 +196,9 @@ $ cd ~
 
 $ git clone https://github.com/herominers/cryptonote-proxy.git
 
-
 $ cd cryptonote-proxy
 
-
 $ npm i
-
 </b>
 </blockquote>
 		
@@ -212,6 +234,10 @@ For Bash on Windows Users: you can find your linux rootfs at: C:\Users\USERNAME\
 </b>
 </blockquote>
 		
+		
+		
+		
+		
 <blockquote>
 <b>
 However, it is not recommended that you edit files in your Linux rootfs directly from Windows. 
@@ -220,9 +246,13 @@ This is due Windows programs not handling the extra permission features used by 
 
 To use Window-based text editing software, it is better to copy config.json to your desktop, edit it.
 
-Then copy it back over to your linux rootfs (e.g. “$ cp /mnt/c/USERNAME/Desktop/config.json .”). If you do edit the file directly from Windows, you’ll need to run “$ chmod +rw config.json” to reset the file permission correctly – don’t turn this into a habit or it’ll get messy quick!
+Then copy it back over to your linux rootfs (e.g. “$ cp /mnt/c/USERNAME/Desktop/config.json .”). 
+
+If you do edit the file directly from Windows, you’ll need to run “$ chmod +rw config.json” to reset the file permission correctly – don’t turn this into a habit or it’ll get messy quick!
 </b>
 </blockquote>
+				
+				
 				
 		
 Inside your config.json, you'll see a couple of options and a list of sample pools, which you'll have to replace with your own. Leave the option for <b>"workerport"</b> and <b>"httpport"</b> alone for now.
@@ -232,6 +262,8 @@ Under the "pools" option tree you'll see <b>"userA"</b> and <b>"userB"</b>. You 
 If you do not have a multi-rig setup or not planning on connecting to two different pool at the same time, you can delete the entire tree under <b>"userB"</b>.
 
 Each pool has an entry that looks like this:
+
+
 
 
 <blockquote>
@@ -251,6 +283,9 @@ Each pool has an entry that looks like this:
 },
 </b>
 </blockquote>
+
+
+
 
 		
 Configuring this is fairly straightforward if you have used mining software before.
@@ -288,6 +323,8 @@ Any number of mining instances can be pointed to cryptonote-proxy.
 
 If you're connecting your miner from a different machine, replace "localhost" with the ip of the machine running cryptonote-proxy.
 	
+		
+		
 		
 <h3>4. Running/Using</h3>
 

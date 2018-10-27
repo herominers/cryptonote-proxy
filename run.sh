@@ -1,1 +1,1 @@
-node proxy.js 
+forever proxy.js
