@@ -22,14 +22,6 @@
 				"api":"https://arqma.herominers.com/api"
 			},
 			{
-				"symbol":"BixBite",
-				"name":"bxd6q14rvtpbQNAhkoobogco4PWAMUipdeXN7QNw3RxxSCYZXetUb1XgR7XmJCf3i2bwMaU4wDGKVhXhsYvvuVbQ2PuyJPhy7",
-				"host":"bixbite.herominers.com",
-				"port":"10260",
-				"url":"https://bixbite.herominers.com",
-				"api":"https://bixbite.herominers.com/api"
-			},
-			{
 				"symbol":"Bloc",
 				"name":"abLoc8XdUpoiykYNyPtwmoJAAjW1zSECf4D52zMd4gzrcQNkDJtTjeX54Kc7MfEHDKZUdk1sQ4QWSHRtb8Cfau3WgHt63sgy1gH",
 				"host":"bloc.herominers.com",
@@ -52,14 +44,6 @@
 				"port":"10420",
 				"url":"https://citadel.herominers.com",
 				"api":"https://citadel.herominers.com/api"
-			},
-			{
-				"symbol":"CitiCash",
-				"name":"cczK6hUb3XHFfdNMJNSHfN545ugmqAXuFUFS3x8gziXf6ed6erscsR3Lj2qjej3XDr3n5gw9ESfw7Zx4yqNtdBJw9U9uw9wz5d",
-				"host":"citicash.herominers.com",
-				"port":"10450",
-				"url":"https://citicash.herominers.com",
-				"api":"https://citicash.herominers.com/api"
 			},
 			{
 				"symbol":"Conceal",
@@ -102,12 +86,12 @@
 				"api":"https://haven.herominers.com/api"
 			},
 			{
-				"symbol":"IntenseCoin",
+				"symbol":"Lethean",
 				"name":"iz4Cnp6ZAtmHDvp8oBf1EF85NCjUidrLDPUEz24s8YUKLZ4SqREVWqt4K4i2NNFRGdNV47ybParZHBe4xA5DCJvs1uH2s35AX",
 				"host":"intensecoin.herominers.com",
 				"port":"10180",
-				"url":"https://intensecoin.herominers.com",
-				"api":"https://intensecoin.herominers.com/api"
+				"url":"https://lethean.herominers.com",
+				"api":"https://lethean.herominers.com/api"
 			},
 			{
 				"symbol":"Karbo",
@@ -150,36 +134,12 @@
 				"api":"https://monerov.herominers.com/api"
 			},
 			{
-				"symbol":"Myztic",
-				"name":"imzt1vJu451eeyBk4oS9eK4uGYXPhS4V69mxMQsZZ3UzSNyVXz5HTNs3rCDJcHntfNfDjnrQJypA4BkskPM78piG4uXW9qupXgN3S",
-				"host":"myztic.herominers.com",
-				"port":"10310",
-				"url":"https://myztic.herominers.com",
-				"api":"https://myztic.herominers.com/api"
-			},
-			{
-				"symbol":"PrivatePay",
-				"name":"PPa1JyM625tcRBAbqYo2F3MVDzigkjLSQ2m593h2h9Cn1v3vZwfvNEb846avEG3TGhAbKCZVX2EWRCobZdquYF6g2B9f4NhRiU",
-				"host":"privatepay.herominers.com",
-				"port":"10330",
-				"url":"https://privatepay.herominers.com",
-				"api":"https://privatepay.herominers.com/api"
-			},
-			{
 				"symbol":"QuantumResistantLedger",
 				"name":"Q0106002c7fafa78ed8cf6faabb62ab9d84449bf83ee1f556c34f959a173cc9c3d8bc2fec798158",
 				"host":"qrl.herominers.com",
 				"port":"10370",
 				"url":"https://qrl.herominers.com",
 				"api":"https://qrl.herominers.com/api"
-			},
-			{
-				"symbol":"ReCoal",
-				"name":"co7aUTcqkP26K894ZSRXJ2QmrmpM6QJn4icnmZtHmihDDpY3CVykt8kANJGJsDD4JTgMvp5v2DVWwjZqU51uMC2v21s9FQeee",
-				"host":"recoal.herominers.com",
-				"port":"10340",
-				"url":"https://recoal.herominers.com",
-				"api":"https://recoal.herominers.com/api"
 			},
 			{
 				"symbol":"Ryo",
@@ -228,14 +188,6 @@
 				"port":"10440",
 				"url":"https://xcash.herominers.com",
 				"api":"https://xcash.herominers.com/api"
-			},
-			{
-				"symbol":"xDrop",
-				"name":"DHZYkHUchzyZU4XEire7vb7yAoLzVADfhih2UXQjb6RpKp1FjrLZtPT1TnaA3a4vKMG3nFfdkcQoCLJtNXqtBVUMD1nSSWW",
-				"host":"xdrop.herominers.com",
-				"port":"10380",
-				"url":"https://xdrop.herominers.com",
-				"api":"https://xdrop.herominers.com/api"
 			}
 			],
 		"userB":[
