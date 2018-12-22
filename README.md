@@ -372,3 +372,50 @@ That’s it!
 
 
 
+HeroMiners CryptoNight Pool List
+
+CryptoNight
+Dero Mining Pool: https://dero.herominers.com/
+Electroneum Mining Pool: https://electroneum.herominers.com/
+Karbo Mining Pool: https://karbo.herominers.com/
+Sumokoin (SUMO) Mining Pool: https://sumo.herominers.com/
+
+CryptoNight v8
+Graft Mining Pool: https://graft.herominers.com/
+Lethean Mining Pool: https://lethean.herominers.com/
+Monero Mining Pool: https://monero.herominers.com/
+Safex Mining Pool: https://safex.herominers.com/
+X-Cash Mining Pool: https://xcash.herominers.com/
+
+CryptoNight v7
+Citadel Mining Pool: https://citadel.herominers.com/
+MoneroV Mining Pool: https://monerov.herominers.com/
+Quantum Resistant Ledger (QRL) Mining Pool: https://qrl.herominers.com/
+
+CryptoNight Heavy
+Loki Mining Pool: https://loki.herominers.com/
+Ryo Mining Pool: https://ryo.herominers.com/
+
+CryptoNight Heavy-Saber
+BitTube Mining Pool: https://tube.herominers.com/
+
+CryptoNight Heavy-Haven
+BLOC (Bloc.money) Mining Pool: https://bloc.herominers.com/
+Haven Mining Pool: https://haven.herominers.com/
+Saronite Mining Pool: https://saronite.herominers.com/
+
+CryptoNight Fast
+Conceal Mining Pool: https://conceal.herominers.com/
+Masari Mining Pool: https://masari.herominers.com/
+
+CryptoNight XTL
+Stellite Mining Pool: https://stellite.herominers.com
+
+CryptoNight Light v1
+Aeon Mining Pool: https://aeon.herominers.com/ 
+ArQmA Mining Pool: https://arqma.herominers.com/
+TurtleCoin Mining Pool: https://turtlecoin.herominers.com/ 
+
+Happy Hashing.
+
+
