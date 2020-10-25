@@ -3,7 +3,11 @@ cryptonote-proxy
 
 ![switch](https://images2.imgbox.com/07/ce/H4UckRqP_o.png)
 
-Support: https://discord.gg/gvWSs84
+Discord Channel: https://discord.gg/gvWSs84
+
+Telegram Channel: https://t.me/HeroMinersPool
+
+Twitter: https://twitter.com/HeroMinerss
 
 
 # Windows Installation Guide
@@ -372,50 +376,72 @@ That’s it!
 
 
 
-HeroMiners CryptoNight Pool List
+# HeroMiners Crypto Mining Pools
+## Different Pool Regions for Best Hashrate Experience
 
-CryptoNight
-Dero Mining Pool: https://dero.herominers.com/
-Electroneum Mining Pool: https://electroneum.herominers.com/
-Karbo Mining Pool: https://karbo.herominers.com/
-Sumokoin (SUMO) Mining Pool: https://sumo.herominers.com/
+• Central Europe (Germany)
 
-CryptoNight v8
-Graft Mining Pool: https://graft.herominers.com/
-Lethean Mining Pool: https://lethean.herominers.com/
-Monero Mining Pool: https://monero.herominers.com/
-Safex Mining Pool: https://safex.herominers.com/
-X-Cash Mining Pool: https://xcash.herominers.com/
+• North Europe (Finland)
 
-CryptoNight v7
-Citadel Mining Pool: https://citadel.herominers.com/
-MoneroV Mining Pool: https://monerov.herominers.com/
-Quantum Resistant Ledger (QRL) Mining Pool: https://qrl.herominers.com/
+• North America (Canada)
 
-CryptoNight Heavy
-Loki Mining Pool: https://loki.herominers.com/
-Ryo Mining Pool: https://ryo.herominers.com/
+• Asia (HongKong)
 
-CryptoNight Heavy-Saber
-BitTube Mining Pool: https://tube.herominers.com/
+• SouthEast Asia (Singapore)
 
-CryptoNight Heavy-Haven
-BLOC (Bloc.money) Mining Pool: https://bloc.herominers.com/
-Haven Mining Pool: https://haven.herominers.com/
-Saronite Mining Pool: https://saronite.herominers.com/
 
-CryptoNight Fast
-Conceal Mining Pool: https://conceal.herominers.com/
-Masari Mining Pool: https://masari.herominers.com/
+Ethereum (ETH): https://ethereum.herominers.com
 
-CryptoNight XTL
-Stellite Mining Pool: https://stellite.herominers.com
+Ethereum Classic (ETC): https://etc.herominers.com
 
-CryptoNight Light v1
-Aeon Mining Pool: https://aeon.herominers.com/ 
-ArQmA Mining Pool: https://arqma.herominers.com/
-TurtleCoin Mining Pool: https://turtlecoin.herominers.com/ 
+Pirl (PIRL): https://pirl.herominers.com
 
-Happy Hashing.
+Callisto (CLO): https://callisto.herominers.com
+
+Expanse (EXP): https://expanse.herominers.com
+
+
+Grin (GRIN): https://grin.herominers.com
+
+MimbleWimble (MWC): https://mwc.herominers.com
+
+Cortex (CTXC): https://cortex.herominers.com
+
+
+Beam (BEAM): https://beam.herominers.com
+
+Monero: https://monero.herominers.com
+
+Haven (XHV): https://haven.herominers.com
+
+Conceal (CCX): https://conceal.herominers.com
+
+TurtleCoin (TRTL): https://turtlecoin.herominers.com
+
+Wownero (WOW): https://wownero.herominers.com
+
+Swap (XWP): https://swap.herominers.com
+
+Quantum Resistant Ledger (QRL): https://qrl.herominers.com
+
+BitTube (TUBE): https://bittube.herominers.com
+
+Uplexa (UPX): https://uplexa.herominers.com
+
+KevaCoin (KVA): https://kevacoin.herominers.com
+
+Dero (DERO): https://dero.herominers.com
+
+Aeon (AEON): https://aeon.herominers.com
+
+ArQmA (ARQ): https://arqma.herominers.com
+
+Scala (XLA): https://stellite.herominers.com
+Sumokoin (SUMO): https://sumo.herominers.com
+
+X-Cash: https://xcash.herominers.com
+
+
+# Happy Mining.
 
 
