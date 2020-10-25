@@ -437,6 +437,7 @@ Aeon (AEON): https://aeon.herominers.com
 ArQmA (ARQ): https://arqma.herominers.com
 
 Scala (XLA): https://stellite.herominers.com
+
 Sumokoin (SUMO): https://sumo.herominers.com
 
 X-Cash: https://xcash.herominers.com
